@@ -1,0 +1,69 @@
+.forms{
+	/* background: rgba(107, 0, 0, 0.486); */
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 10px;
+	width: 80%;
+	
+}
+
+form input{
+	width: 100%;
+	font-size: 24px;
+	outline: none;
+	border: 2px solid black;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+form label{
+	font-size: 24px;
+	font-family: 'HG';
+}
+form h2{
+	font-family: 'HG';
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+.btn_auth{
+	border-radius: 10px;
+	padding: 10px 15px;
+	border: 2px solid black;
+	font-size: 25px;
+	margin: 0 auto;
+    display: block;
+	cursor: pointer;
+	background: none;
+}
+.btn_auth:hover{
+	background: rgb(255, 0, 0);
+	transition: .5s;
+	color:rgb(255, 255, 255);
+}
+
+.reg_prod{
+	display: flex;
+}
+.reg_prod h2{
+	font-family: 'HG';
+
+}
+
+.change_auth{
+	background: none;
+	border:none;
+    font-family: 'Gro';
+	margin: 10px auto;
+	display: block;
+	cursor: pointer;
+}
+
+.change_auth:hover{
+	text-decoration: underline;
+}
+
+#reg_form{
+	display: none;
+}
